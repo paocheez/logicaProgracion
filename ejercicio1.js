@@ -12,5 +12,5 @@ function timesTable(number){
           result += `${number}x${i}=${op} `;
       }
       return result;
-  }
+}
   
