@@ -1,6 +1,6 @@
-# logicaProgramacion
+# Logica de Programación
 
-Este repositorio contiene ejercicios para práctica lógica de programación con JavaScript. 
+Este repositorio contiene ejercicios para practicar mi lógica de programación con JavaScript. 
 
 <h1>Ejercicio 1</h1>
 Dado un numero devolver su tabla de multiplicar completa. Por ejemplo:
