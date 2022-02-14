@@ -47,7 +47,6 @@ Output:
   *    * 
   *    * 
   * ** * 
- 
 </pre>
 <h1>Ejercicio 7</h1>
 Dados dos numeros, devolver cuantos numeros impares hay ENTRE ellos
@@ -72,7 +71,9 @@ Dado un numero mostrar una escalera con escalones de guiones usando el numero pa
 
 Input: 4
 Output:
+<pre>
   [-]
   [-][-]
   [-][-][-]
   [-][-][-][-]
+</pre>
