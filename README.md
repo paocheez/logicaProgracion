@@ -35,3 +35,42 @@ Sacar el porcentaje de un numero. Mandamos tanto el porcentaje como el numero po
 
 Input: (20, 100) -- El 20% de 100
 Output: 20
+
+<h1>Ejercicio 6</h1>
+Dibujar un cuadrado hueco con astericos en consola con el tamaño de lados que definamos nosotros
+
+Input: 4
+Output:
+  * ** *
+  *    *
+  *    * 
+  *    * 
+  * ** * 
+ 
+<h1>Ejercicio 7</h1>
+Dados dos numeros, devolver cuantos numeros impares hay ENTRE ellos
+
+Input: (1, 100)
+Output: 49
+
+<h1>Ejercicio 8</h1>
+Con un numero entero, invertirlo y devolverlo dado vuelta.
+
+Input: 56
+Output: 65
+
+<h1>Ejercicio 9</h1>
+Dados dos array devolver un array con los elementos comunes entre ambos sin duplicados
+
+Input: ([1,2,3], [3,2,5,6])
+Output: [2,3]
+
+<h1>Ejercicio 10</h1>
+Dado un numero mostrar una escalera con escalones de guiones usando el numero para los niveles de la escalera.
+
+Input: 4
+Output:
+  [-]
+  [-][-]
+  [-][-][-]
+  [-][-][-][-]
