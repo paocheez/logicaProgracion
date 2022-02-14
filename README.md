@@ -41,12 +41,14 @@ Dibujar un cuadrado hueco con astericos en consola con el tamaño de lados que d
 
 Input: 4
 Output:
+<pre>
   * ** *
   *    *
   *    * 
   *    * 
   * ** * 
  
+</pre>
 <h1>Ejercicio 7</h1>
 Dados dos numeros, devolver cuantos numeros impares hay ENTRE ellos
 
