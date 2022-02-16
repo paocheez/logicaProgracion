@@ -77,3 +77,69 @@ Output:
   [-][-][-]
   [-][-][-][-]
 </pre>
+
+<h1>Ejercicio 11</h1>
+Dado un String y una busqueda, censurar las coincidencias de la busqueda en el String con [-CENSURADO-] Si ambos llegan vacios, devolver un "No se puede leer el texto y la busqueda". Y si llega un solo parametro, devolver "No se puede hacer la busqueda"
+
+Input: ('holi como va', 'holi) -- Frase y palabra a censurar
+Output: [-CENSURADO-] como va
+
+<h1>Ejercicio 12</h1>
+Dado un numero mostrar todos los numeros desde ese al 0 de 8 en 8 en una lista con guiones y cada numero debe empezar por "n"
+
+Input: 100
+Output:
+<pre>
+-n 100
+-n 92
+-n 84
+etc..
+</pre>
+
+<h1>Ejercicio 13</h1>
+Dado un array, dividirlo en tantos sub-arrays como sea necesario basandonos en un numero que indique su tamaño.
+
+Input: ([1,2,3,4], 2) -- Array y tamaño de divisiones
+Output: ([1,2], [3,4])
+
+<h1>Ejercicio 14</h1>
+Dado un String y un numero, repetir el String las veces que diga el numero
+
+Input: ('denu', 2) -- Palabra y veces que se debe repetir
+Output: 'denu' 'denu'
+
+<h1>Ejercicio 15</h1>
+Dado un String devolver el caracter mas usado.
+
+Input: denuuu
+Output: u
+
+<h1>Ejercicio 16</h1>
+Dado una cadena de texto, devolver cuantas vocales tiene la misma.
+
+Input: denu
+Output: 2
+
+<h1>Ejercicio 17</h1>
+Dado un numero, mostrar los numeros de 1 hasta el numero. Para multiplos de tres, escribir "denu" en lugar del numero, para los multiplos de cinco, "lemon", y si es multiplo de tres y cinco, "denolemon"
+
+Input: 6
+Output: 1 2 denu 4 lemon denu
+
+<h1>Ejercicio 18</h1>
+Dado un numero, mostrar sus divisores (hasta el número)
+
+Input: 5
+Output: 1 5
+
+<h1>Ejercicio 19</h1>
+Dado un array de objetos de peliculas (titulo, director y si fue vista), mostrar todas las peliculas indicando si la viste o no.
+
+Input: [{"el señor de los anillos", "denu lemon", true}, {"avatar", "denu lemon", false}]
+Output: I have seen "El señor de los anillos 2" directed by Deno Lemon I have not seen "El señor de los anillos 3" directed by Deno Lemon"
+
+<h1>Ejercicio 20</h1>
+Dados dos String crear un algoritmo que compruebe si son anagramas entre si (Si ambos usan los mismos caracteres en una misma cantidad)
+
+Input: (Riesgo, Sergio)
+Output: true
