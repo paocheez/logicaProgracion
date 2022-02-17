@@ -143,3 +143,148 @@ Dados dos String crear un algoritmo que compruebe si son anagramas entre si (Si 
 
 Input: (Riesgo, Sergio)
 Output: true
+
+<h1>Ejercicio 21</h1>
+Dada un String y un numero, cortar el string mostrando X cantidad de caracteres dependiendo del numero enviado.
+
+Input: (Denu, 2)
+Output: De
+
+<h1>Ejercicio 22</h1>
+Dados dos numeros indicar cual es mayor y cual es menor.
+
+Input: (2, 5)
+Output: 2 is less than 5
+
+<h1>Ejercicio 23</h1>
+Dado un String poner en mayuscula la primera letra de cada palabra en la cadena y devolverla.
+
+Input: hola soy denu lemon
+Output: Hola Soy Denu Lemon
+
+<h1>Ejercicio 24</h1>
+Dado un array de enteros y un numero, detectar si esa lista de numeros es una permutacion del 1 al numero aportado.
+
+Permutacion: Secuencia de numeros en orden sin que falte ninguno entre ellos
+
+Input: ([1,2,3,4,5], 5)
+Output: true
+
+<h1>Ejercicio 25</h1>
+Dado un String, si hay mas mayusculas, pasar todo a mayuscula, y viceversa.
+
+Input: "DENu"
+Output: DENU
+
+<h1>Ejercicio 26</h1>
+Dado un numero mostrar la serie de fibonacci y el resultado de la misma
+
+Input: 10
+Output: Serie completa: 0,1,1,2,3,5,8,13,21,34,55) Resultado: 55
+
+<h1>Ejercicio 27</h1>
+Dado un numero mostrar a cuantos años, meses y dias equivale.
+
+Input: 920
+Output: 2 años, 6 meses y 2 dias
+
+<h1>Ejercicio 28</h1>
+Dado un numero devolver su factorial (La multiplifacion de todos los numeros hasta llegar a el)
+
+Input: 3
+Output: 6 (1x2x3)
+
+<h1>Ejercicio 29</h1>
+Dado un numero indicar si es capicua o no (se leen igual de izquierda a derecha y viceversa)
+
+Input: 2002
+Output: true
+
+<h1>Ejercicio 30</h1>
+Dado un array de numeros, devolver el array sin elementos duplicados. Lo mismo si hay algun String, debemos borrarlo
+
+Input: [1,1,2,2,3,3,'denu']
+Output: [1,2,3]
+
+<h1>Ejercicio 31</h1>
+Dado un numero, indicar que tipo de angulo es (recto, agudo, obtuso, etc..)
+
+Referencia
+Agudos < 90
+
+Recto == 90
+
+Obtuso > 90
+
+Llano == 180
+
+Completo == 360
+
+Mayor a 180 < 180
+
+Input: 90
+Output: Angulo Recto
+
+<h1>Ejercicio 32</h1>
+Dado un array de numeros, devolver el mismo con sus numeros elevados al cuadrado, y se debe eliminar cualquier contenido que no sea numerico
+
+Input: [5,6,7,"denu"]
+Output: [25,36,49]
+
+<h1>Ejercicio 33</h1>
+Hacer un reloj que en tiempo real vaya mostrando la hora a cada segundo. Solo se puede usar Date para conseguir la hora una vez, pero no para actualizarla
+
+Input:
+<pre>
+const myClock = new Clock();
+myClock.turnOn();
+</pre>
+Output: 14:20:16 -- Actualizar en tiempo real HH:MM:SS
+
+<h1>Ejercicio 34</h1>
+Dados dos numeros, devolver los resultados de las operaciones basicas entre ellos (suma, resta, multiplicacion, division)
+
+Input: (2,2)
+<pre>
+Output:
+2 + 2 = 4
+2 - 2 = 0
+2 * 2 = 4
+2 / 2 = 1
+</pre>
+
+<h1>Ejercicio 35</h1>
+Dado un array, crear otro array con el primer y ultimo elemento del array original
+
+Input: [100,200,500,600]
+Output: [100,600]
+
+<h1>Ejercicio 36</h1>
+Dado un String, devolver cuantas consonantes y vocales tiene.
+
+Input: denu
+Output: Consonantes: 2 Vocales: 2
+
+<h1>Ejercicio 37</h1>
+Dado un Array o Texto devolver el elemento o palabras que mas aparecen dentro de estos.
+
+Input: [denu, denu, lemon]
+Output: denu
+
+<h1>Ejercicio 38</h1>
+Dado un numero mostrar una lista de los cuadrados de todos los numeros naturales hasta llegar al mismo.
+
+Input: 5
+Output: [ 0, 1, 4, 9, 16 ]
+
+<h1>Ejercicio 39</h1>
+Dado un texto comprobar que sea un email valido
+
+Input: denu@gmail.com
+Output: true
+
+<h1>Ejercicio 40</h1>
+Dado un array de numeros devolver el valor mas bajo y el valor mas alto
+
+Input: [1,2,3,4,5]
+Output: Bajo: 1 Alto:5
