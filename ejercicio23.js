@@ -6,13 +6,14 @@ Output: Hola Soy Denu Lemon
 */
 
 function capitalLett(phrase){
-    let arrPhrase = phrase.split('');
-    let index = [];
-    let idx = arrPhrase.indexOf(" ");
-
-    while (idx != -1) {
-        index.push(idx);
-        idx = arrPhrase.indexOf(" ", idx + 1);
+    let arrPhrase = phrase.split(' ');
+    
+    for(let i = 0; i < arrPhrase.length; i++){
+      arrPhrase[i] = arrPhrase[i].charAt(0).toUpperCase() + arrPhrase[i].slice(1);
     }
-    return index;
+  
+    phrase = arrPhrase.join().replace(/,/g, " ");
+  
+  
+    return phrase;
 }
