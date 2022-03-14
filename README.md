@@ -288,3 +288,147 @@ Dado un array de numeros devolver el valor mas bajo y el valor mas alto
 
 Input: [1,2,3,4,5]
 Output: Bajo: 1 Alto:5
+
+<h1>Ejercicio 41</h1>
+Dado un numero, mostrar un triangulo de astericos con ese numero de filas, un arbolito de X filas.
+
+Input: 4
+Output:
+<pre>
+   *
+  ***
+ *****
+*******
+</pre>
+
+<h1>Ejercicio 42</h1>
+Dado dos numeros, sacar un numero random entre ellos
+
+Input: 1,100
+Output: 46 -- Random
+
+<h1>Ejercicio 43</h1>
+Dado un array de numeros, sacar la media de todos (la suma de todos los numeros dividido por la cantidad de elementos, el promedio)
+
+Input: [1,2,3]
+Output: 3
+
+<h1>Ejercicio 44</h1>
+Dado un array de Strings, devolver otro con los valores que esten formados por mas de dos palabras
+
+Input: ["hola denu", "pastel", "rosa"]
+Output: ["hola denu"]
+
+<h1>Ejercicio 45</h1>
+Dado un array de alumnos, con su nombre y su calificacion, mostrar cuantos aprobaron y cuantos no. (Aprobás con 6)
+
+Input: [["Denu", 4], ["Jorge", 2], ["Mafalda", 10]]
+Output: 2 suspensos y 1 aprobado
+
+<h1>Ejercicio 46</h1>
+Dado un String devolver los posibles substrings
+
+Input: hola
+Output: ['h','o','l','a','ho','la','hol','ola','hola]
+
+<h1>Ejercicio 47</h1>
+Dado un array de objetos devolver cuales son las aficiones mas comunes de los usuarios
+
+Input: {aficiones de usuarios}
+Output: {informatica: 6, futbol: 4, cine: 3}
+
+<h1>Ejercicio 48</h1>
+Dado un string devolver las letras que se repiten solo una vez y cual es la primera
+
+Input: Denu es Genial
+Output: [[D, U, G, I, L], D]
+
+<h1>Ejercicio 49</h1>
+Dado un objeto, ver si existe una propiedad en concreto o no
+
+Input: (objeto, "nombre")
+Output: true -- existe la prop nombre en objeto
+
+<h1>Ejercicio 50</h1>
+Dado un numero, devolver cuantos bucles tiene. Se tiene uno cuando tiene un circulo cerrado, por ejemplo, 6 tiene un bucle, 8 tiene dos, 1 tiene cero.
+
+Input: (288661)
+Output: 6
+
+<h1>Ejercicio 51</h1>
+Dado un array con numeros devolver dos array, uno con los pares y otro con impares
+
+Input: [2,4,5,6,7,8]
+Output: Pares [2,4,6,8] Impares [5,7]
+
+<h1>Ejercicio 52</h1>
+Determinar la hipotenusa de un triángulo rectángulo conocidas las longitudes de sus dos catetos.
+
+Calculo hipotenusa √CatA^2 + CatB^2
+
+Input: (8, 10)
+Output: 12,81
+
+<h1>Ejercicio 53</h1>
+Realice un algoritmo que a partir de proporcionarle la velocidad de un automóvil, expresada en kilómetros por hora, proporcione la velocidad en metros por segundo.
+1km/h => 0,28 m/s
+
+Input: 100
+Output: 27,78
+
+<h1>Ejercicio 54</h1>
+Se dan dos array del mismo tamaño de numeros, y un numero como parametros. Iterando al primer array de izquierda a derecha y al segundo array de derecha a izquierda, devolver cuantas veces se obtiene un numero con los pares de numeros que son menores al tercer parametro.
+
+Input: [1, 2, 3] [1, 2, 3] 31
+Output: 2 (Porque 31 no es menor a 31, 22 es menor a 31 y 13 es menor a 31)
+
+<h1>Ejercicio 55</h1>
+Encontrar el tamaño de la ultima palabra. Si esta vacio, devolverá 0. Si es una sola palabra, se toma el tamaño de esa sola palabra.
+
+Input: Hola Mundo
+Output: 5
+
+<h1>Ejercicio 56</h1>
+De un array de String, se debe devolver el prefijo mas grande que se encuentre entre las cadenas.
+
+Input: ["flower", "flow", "flight"]
+Output: fl
+Resultado si no existe prefijo
+Input: ["dog", "raccoon", "car"]
+Output: ""
+
+<h1>Ejercicio 57</h1>
+De una cadena de numeros y caracteres, crear una cuenta, recibimos el Infix, creamos el Postfix y devolvemos el Prefix. La conversion seria asi:
+
+Input: ["2", "1", "+", "3", "*"] => ((2+1)*3) => 9
+Otro ejemplo es:
+Input: ["4", "13", "5", "/", "+"] => (4 + (13/5)) => 6
+Tenemos 3 tipos de notaciones: (Asi funcionan las calculadoras)
+Infix = (2 + 1) + 3
+Postfix = Es la expresion del Infix evaluada, tambien se le dice "Reverse Polish notation"
+Prefix = Es la respuesta de la cuenta
+Hay ciertas reglas para resolver las expresiones Postfix. Para eso debemos utilizar una pila. Por ejemplo, tenemos el siguiente Infix [2, 1, +, 3, *], cuando nos encontramos con numeros, los agregamos a la pila HASTA encontrarnos con un operador. Es decir, hasta el signo +, nuestra pila tiene dos numeros, 2, 1, entonces, cuando llegamos al operador, realizamos la cuenta, es decir, 2 + 1. Luego, ese resultado lo agregamos a la pila, y seguimos. En este caso, agregamos 3, y luego nos chocamos con la multiplicacion, asi que ahi, hacemos (2 + 1) * 3, dando como resultado 9.
+
+<h1>Ejercicio 58</h1>
+Dado el titulo de la columna, averiguar el numero de la columna. Estará en mayuscula.
+
+Input: B
+Output: 2 // Por su orden en el abecedario
+Tambien puede venir doble, es decir
+Input: AA
+Output: 27 // La operacion seria 26 * 1 + 1
+Input: AAA
+Output: 703 // (26 * 26 * 1) + (26 * 1) + 1
+Input: ZY
+Output: 701 // (26 * 26) + 25
+y asi sucesivamente...
+
+<h1>Ejercicio 59</h1>
+Dado un string que no puede ser vacio, se podrá eliminar de el, como mucho, un solo caracter, para volverlo un palindromo valido. Tambien valida si es palindromo o no sin necesidad de quitar nada.
+
+Input: abca
+Output: True // Se elimina la letra C
+Input: aba
+Output: True // No se elimina nada pero es palindromo
+Input: abcd
+Output: False // No es palindromo ni eliminando ninguno
